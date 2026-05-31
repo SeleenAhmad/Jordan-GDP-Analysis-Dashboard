@@ -70,15 +70,15 @@ RETURN (DIVIDE(EndValue, StartValue) ^ (1 / Years) - 1) * 100
 
 ## Dashboard Structure
 
-### Page 1 — Overview
+### Page 1 —  Sector Analysis
+- Sector-level breakdown with year slicer
+- Interactive filtering by economic activity
+
+### Page 2 — Overview
 - GDP growth trend line (2008–2023)
 - KPI cards: 2023 GDP, Previous Year GDP, YoY Growth %
 - Top 10 sectors by total contribution (bar chart)
 - Top 5 lowest-contributing sectors (pie chart)
-
-### Page 2 — Sector Analysis
-- Sector-level breakdown with year slicer
-- Interactive filtering by economic activity
 
 ### Page 3 — Recommendations
 - Three consulting-grade strategic recommendations for underperforming sectors
