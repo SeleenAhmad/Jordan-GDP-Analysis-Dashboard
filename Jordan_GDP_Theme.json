@@ -1,0 +1,106 @@
+{
+  "name": "Jordan GDP Analysis",
+  "dataColors": [
+    "#1B3A6B",
+    "#C8102E",
+    "#007A3D",
+    "#D4A017",
+    "#2E86AB",
+    "#E85D04",
+    "#6B4226",
+    "#5C6BC0",
+    "#00897B",
+    "#8D6E63"
+  ],
+  "background": "#F8F9FA",
+  "foreground": "#1B3A6B",
+  "tableAccent": "#1B3A6B",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "solid": { "color": "#1B3A6B" } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "solid": { "color": "#F8F9FA" } }],
+        "outspace": [{ "solid": { "color": "#E9ECF0" } }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "border": [{ "solid": { "color": "#1B3A6B" } }],
+        "dataLabels": [{
+          "color": { "solid": { "color": "#1B3A6B" } },
+          "fontSize": 28,
+          "fontFamily": "Segoe UI Semibold",
+          "bold": true
+        }],
+        "categoryLabels": [{
+          "color": { "solid": { "color": "#6B7280" } },
+          "fontSize": 11
+        }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "border": [{ "solid": { "color": "#E9ECF0" } }],
+        "plotArea": [{
+          "transparency": 0
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "border": [{ "solid": { "color": "#E9ECF0" } }]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "border": [{ "solid": { "color": "#E9ECF0" } }]
+      }
+    },
+    "title": {
+      "*": {
+        "color": [{ "solid": { "color": "#1B3A6B" } }],
+        "background": [{ "solid": { "color": "#FFFFFF" } }],
+        "fontSize": [{ "value": 14 }],
+        "fontFamily": [{ "value": "Segoe UI Semibold" }],
+        "bold": [{ "value": true }]
+      }
+    },
+    "label": {
+      "*": {
+        "color": [{ "solid": { "color": "#1B3A6B" } }]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {
+      "fontSize": 45,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B3A6B"
+    },
+    "title": {
+      "fontSize": 16,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B3A6B"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B3A6B"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#4B5563"
+    }
+  }
+}
